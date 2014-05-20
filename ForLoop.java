@@ -19,15 +19,15 @@ public class ForLoop {
         double area = 0;
 
         //to handle errors gracefully - use try-catch (i.e. below)
-        //try {
-        //    int y = 1;
-        //    int b = 0;
-        //    int x = y/b;
-        //}
-        //catch(ArithmeticException e)
-       // {
-        //    System.out.println("Bad b");
-       // }
+        try {
+            int y = 1;
+            int b = 0;
+            int x = y/b;
+        }
+        catch(ArithmeticException e)
+        {
+            System.out.println("Bad b");
+        }
        // catch(Exception e) {
        //     System.out.println("ERROR:::: " + e.getMessage());
         //}
